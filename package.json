@@ -1,0 +1,18 @@
+{
+  "name": "song-color-learner",
+  "version": "0.0.2-0",
+  "description": "",
+  "main": "learner.js",
+  "dependencies": {
+    "hapi": "^13.4.1",
+    "nearest-neighbors": "^4.0.1",
+    "spotify-web-api-node": "^2.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Hugh Rawlinson <hugh@spotify.com> (http://www.hughrawlinson.me/)",
+  "license": "ISC"
+}
