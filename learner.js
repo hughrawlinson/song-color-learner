@@ -18,7 +18,7 @@ server.route({
   path:'/{id}', 
   handler: function (request, reply) {
     spotifyApi.getAudioFeaturesForTrack(request.params.id,(err, res)=>{
-      return reply(machine.classify(res.body,2,'class') || err);
+      return reply(machine.classify(res.body,3,'class') || err);
     });
   }
 });
