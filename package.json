@@ -4,7 +4,7 @@
   "description": "",
   "main": "learner.js",
   "dependencies": {
-    "hapi": "^16.1.0",
+    "hapi": "^16.3.1",
     "nearest-neighbors": "^4.0.1",
     "spotify-web-api-node": "^2.3.0"
   },
